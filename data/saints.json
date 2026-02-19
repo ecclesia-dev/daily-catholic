@@ -1,0 +1,548 @@
+{
+  "01-01": {
+    "name": "The Circumcision of Our Lord",
+    "title": "Solemnity",
+    "bio": "On the eighth day after His birth, Our Lord was circumcised according to the Law of Moses and received the Holy Name of Jesus, meaning 'God saves.' This first shedding of His Precious Blood foreshadowed the sacrifice of Calvary.",
+    "feastRank": "Duplex I classis"
+  },
+  "01-02": {
+    "name": "The Most Holy Name of Jesus",
+    "title": "Feast",
+    "bio": "The Holy Name of Jesus, bestowed at the Circumcision, is venerated as the Name above all names. At the Name of Jesus every knee shall bow, of those that are in heaven, on earth, and under the earth.",
+    "feastRank": "Duplex II classis"
+  },
+  "01-03": {
+    "name": "St. Geneviève, Virgin",
+    "title": "Virgin",
+    "bio": "St. Geneviève, patroness of Paris, consecrated herself to God at age seven. Her prayers and fasting are credited with turning back Attila the Hun from Paris in 451. She died around 512.",
+    "patronage": "Paris, disasters, fever",
+    "feastRank": "Duplex"
+  },
+  "01-04": {
+    "name": "St. Titus, Bishop and Confessor",
+    "title": "Bishop, Confessor",
+    "bio": "St. Titus, a disciple of St. Paul, was appointed the first Bishop of Crete. St. Paul's Epistle to Titus instructs him in the governance of the Church. He died peacefully around 96 AD.",
+    "feastRank": "Duplex"
+  },
+  "01-05": {
+    "name": "St. Telesphorus, Pope and Martyr",
+    "title": "Pope, Martyr",
+    "bio": "St. Telesphorus was the seventh Pope, reigning from about 125 to 136. He is said to have instituted the Gloria in Excelsis at the Christmas midnight Mass. He died a glorious martyr under Emperor Hadrian.",
+    "feastRank": "Duplex"
+  },
+  "01-06": {
+    "name": "The Epiphany of Our Lord",
+    "title": "Solemnity",
+    "bio": "The Epiphany celebrates the manifestation of Christ to the Gentiles, represented by the Magi who followed the star to Bethlehem, offering gold, frankincense, and myrrh to the Infant King.",
+    "feastRank": "Duplex I classis"
+  },
+  "01-07": {
+    "name": "St. Lucian of Antioch, Priest and Martyr",
+    "title": "Priest, Martyr",
+    "bio": "St. Lucian was a renowned priest and Scripture scholar of Antioch who revised the texts of the Septuagint and New Testament. He was martyred at Nicomedia in 312 under Emperor Maximinus.",
+    "feastRank": "Simplex"
+  },
+  "01-08": {
+    "name": "St. Severinus, Abbot",
+    "title": "Abbot",
+    "bio": "St. Severinus was an Eastern monk who evangelized the people of Noricum (modern Austria) during the barbarian invasions of the 5th century. He founded monasteries and organized relief for the poor.",
+    "feastRank": "Simplex"
+  },
+  "01-09": {
+    "name": "Ss. Julian and Basilissa, Martyrs",
+    "title": "Martyrs",
+    "bio": "Sts. Julian and Basilissa were a married couple who lived in perfect continence. They converted their home into a hospital. Both suffered martyrdom under Diocletian around 304.",
+    "feastRank": "Simplex"
+  },
+  "01-10": {
+    "name": "St. Agatho, Pope and Confessor",
+    "title": "Pope, Confessor",
+    "bio": "St. Agatho, a Sicilian monk, became Pope in 678. He convened the Third Council of Constantinople (681) which condemned Monothelitism. Known for his gentleness and learning, he died in 681.",
+    "feastRank": "Simplex"
+  },
+  "01-11": {
+    "name": "St. Hyginus, Pope and Martyr",
+    "title": "Pope, Martyr",
+    "bio": "St. Hyginus, the ninth Pope, governed the Church from about 136 to 140 during the early heresies of Valentinus and Cerdo. He organized the clergy into ranks and is venerated as a martyr.",
+    "feastRank": "Simplex"
+  },
+  "01-12": {
+    "name": "St. Arcadius, Martyr",
+    "title": "Martyr",
+    "bio": "St. Arcadius was a prominent citizen of Caesarea in Mauretania who, during Diocletian's persecution, refused to offer sacrifice to idols. He was dismembered limb by limb and died praising God.",
+    "feastRank": "Simplex"
+  },
+  "01-13": {
+    "name": "The Baptism of Our Lord",
+    "title": "Feast",
+    "bio": "The Baptism of Our Lord in the Jordan by St. John commemorates the theophany when the Holy Spirit descended as a dove and the Father's voice proclaimed: 'This is My beloved Son.'",
+    "feastRank": "Duplex II classis"
+  },
+  "01-14": {
+    "name": "St. Hilary of Poitiers, Bishop, Confessor, and Doctor",
+    "title": "Bishop, Confessor, Doctor",
+    "bio": "St. Hilary, the 'Athanasius of the West,' was Bishop of Poitiers and a fearless defender of the divinity of Christ against Arianism. His masterwork 'De Trinitate' remains a pillar of Catholic theology.",
+    "patronage": "against snake bites, backward children",
+    "feastRank": "Duplex"
+  },
+  "01-15": {
+    "name": "St. Paul the First Hermit",
+    "title": "Confessor",
+    "bio": "St. Paul of Thebes fled to the Egyptian desert during the Decian persecution and lived as a hermit for nearly 90 years. St. Anthony visited him before his death, and a lion dug his grave.",
+    "feastRank": "Duplex"
+  },
+  "01-16": {
+    "name": "St. Marcellus I, Pope and Martyr",
+    "title": "Pope, Martyr",
+    "bio": "St. Marcellus I became Pope in 308 during the aftermath of Diocletian's persecution. He reorganized the Roman Church and enforced discipline for those who had lapsed. He was exiled and died a martyr.",
+    "feastRank": "Duplex"
+  },
+  "01-17": {
+    "name": "St. Anthony the Abbot",
+    "title": "Abbot",
+    "bio": "St. Anthony the Great, Father of Monasticism, withdrew to the Egyptian desert at age 20. For decades he battled demons and attracted followers. He lived to 105, a beacon of prayer and penance.",
+    "patronage": "animals, basket makers, skin diseases",
+    "feastRank": "Duplex majus"
+  },
+  "01-18": {
+    "name": "The Chair of St. Peter at Rome",
+    "title": "Feast",
+    "bio": "This feast celebrates St. Peter's establishment of his episcopal see in Rome, affirming the primacy of the Roman Pontiff as Vicar of Christ and visible head of the universal Church.",
+    "feastRank": "Duplex majus"
+  },
+  "01-19": {
+    "name": "Ss. Marius, Martha, Audifax, and Abachum, Martyrs",
+    "title": "Martyrs",
+    "bio": "This Persian noble family traveled to Rome to venerate the relics of the martyrs. They buried the bodies of the faithful killed under Claudius II. All four were arrested and martyred on the Via Cornelia.",
+    "feastRank": "Simplex"
+  },
+  "01-20": {
+    "name": "Ss. Fabian, Pope, and Sebastian, Martyrs",
+    "title": "Pope, Martyrs",
+    "bio": "St. Fabian (Pope, d. 250) was chosen Pope when a dove alighted on his head; he was martyred under Decius. St. Sebastian, a Roman soldier, was shot with arrows and clubbed to death under Diocletian.",
+    "patronage": "soldiers, athletes, plague",
+    "feastRank": "Duplex"
+  },
+  "01-21": {
+    "name": "St. Agnes, Virgin and Martyr",
+    "title": "Virgin, Martyr",
+    "bio": "St. Agnes, at age twelve or thirteen, consecrated her virginity to Christ. When led to a house of sin, her purity was miraculously preserved. She was beheaded during the persecution of Diocletian around 304.",
+    "patronage": "young girls, chastity, gardeners",
+    "feastRank": "Duplex"
+  },
+  "01-22": {
+    "name": "Ss. Vincent and Anastasius, Martyrs",
+    "title": "Martyrs",
+    "bio": "St. Vincent, deacon of Saragossa, was tortured with fire and iron hooks under Dacian but remained steadfast. St. Anastasius, a Persian monk, was beheaded in 628 after prolonged tortures for the Faith.",
+    "feastRank": "Duplex"
+  },
+  "01-23": {
+    "name": "St. Raymond of Peñafort, Confessor",
+    "title": "Confessor",
+    "bio": "St. Raymond, a Dominican friar, compiled the Decretals of Pope Gregory IX and was Master General of his Order. He is said to have sailed on his cloak from Majorca to Barcelona. He died in 1275 at age 100.",
+    "patronage": "canonists, lawyers",
+    "feastRank": "Duplex"
+  },
+  "01-24": {
+    "name": "St. Timothy, Bishop and Martyr",
+    "title": "Bishop, Martyr",
+    "bio": "St. Timothy, beloved disciple of St. Paul, was the first Bishop of Ephesus. Two of St. Paul's epistles are addressed to him. He was stoned and clubbed to death by a pagan mob around 97 AD.",
+    "feastRank": "Duplex"
+  },
+  "01-25": {
+    "name": "The Conversion of St. Paul",
+    "title": "Feast",
+    "bio": "On the road to Damascus, Saul the persecutor was struck down by a heavenly light and heard the voice of Christ: 'Saul, Saul, why persecutest thou Me?' He was baptized and became the Apostle of the Gentiles.",
+    "feastRank": "Duplex majus"
+  },
+  "01-26": {
+    "name": "St. Polycarp, Bishop and Martyr",
+    "title": "Bishop, Martyr",
+    "bio": "St. Polycarp, a disciple of St. John the Apostle, was Bishop of Smyrna for decades. At age 86, when asked to deny Christ, he replied: 'Eighty-six years I have served Him and He has done me no wrong.' He was burned alive in 155.",
+    "feastRank": "Duplex"
+  },
+  "01-27": {
+    "name": "St. John Chrysostom, Bishop, Confessor, and Doctor",
+    "title": "Bishop, Confessor, Doctor",
+    "bio": "St. John Chrysostom ('Golden Mouth'), Archbishop of Constantinople, was the greatest preacher of the early Church. His homilies on Scripture and his reform of clerical life earned him exile. He died in 407.",
+    "patronage": "preachers, orators",
+    "feastRank": "Duplex"
+  },
+  "01-28": {
+    "name": "St. Peter Nolasco, Confessor",
+    "title": "Confessor",
+    "bio": "St. Peter Nolasco founded the Order of Our Lady of Mercy (Mercedarians) in 1218 for the ransom of Christians held captive by the Moors. He ransomed hundreds of slaves and died in 1256.",
+    "patronage": "captives, midwives",
+    "feastRank": "Duplex"
+  },
+  "01-29": {
+    "name": "St. Francis de Sales, Bishop, Confessor, and Doctor",
+    "title": "Bishop, Confessor, Doctor",
+    "bio": "St. Francis de Sales, Bishop of Geneva, won back thousands from Calvinism by his gentle preaching. His 'Introduction to the Devout Life' and 'Treatise on the Love of God' are spiritual classics. He died in 1622.",
+    "patronage": "writers, journalists, deaf people",
+    "feastRank": "Duplex"
+  },
+  "01-30": {
+    "name": "St. Martina, Virgin and Martyr",
+    "title": "Virgin, Martyr",
+    "bio": "St. Martina, a Roman noblewoman, distributed her wealth to the poor and was martyred under Emperor Alexander Severus around 228. She endured tortures including fire, wild beasts, and the sword.",
+    "feastRank": "Duplex"
+  },
+  "01-31": {
+    "name": "St. John Bosco, Confessor",
+    "title": "Confessor",
+    "bio": "St. John Bosco, the 'Father of Youth,' founded the Salesians to educate poor boys in Turin. His preventive system of education, based on reason, religion, and kindness, transformed countless lives. He died in 1888.",
+    "patronage": "young people, apprentices, editors",
+    "feastRank": "Duplex"
+  },
+  "02-01": {
+    "name": "St. Ignatius of Antioch, Bishop and Martyr",
+    "title": "Bishop, Martyr",
+    "bio": "St. Ignatius, third Bishop of Antioch and disciple of the Apostles, was condemned under Trajan and sent to Rome where he was devoured by lions in the Colosseum around 107. His letters are treasures of early theology.",
+    "feastRank": "Duplex"
+  },
+  "02-02": {
+    "name": "The Purification of the Blessed Virgin Mary",
+    "title": "Feast of Our Lord",
+    "bio": "Forty days after Christmas, Our Lady presented the Child Jesus in the Temple, fulfilling the Law of Moses. The aged Simeon took the Child in his arms and proclaimed Him 'a light to the revelation of the Gentiles.'",
+    "feastRank": "Duplex II classis"
+  },
+  "02-03": {
+    "name": "St. Blaise, Bishop and Martyr",
+    "title": "Bishop, Martyr",
+    "bio": "St. Blaise, Bishop of Sebaste in Armenia, was renowned for miraculous healings, especially of throat ailments. He was tortured with iron combs and beheaded under Emperor Licinius around 316.",
+    "patronage": "throat ailments, animals, wool workers",
+    "feastRank": "Simplex"
+  },
+  "02-04": {
+    "name": "St. Andrew Corsini, Bishop and Confessor",
+    "title": "Bishop, Confessor",
+    "bio": "St. Andrew Corsini, a Carmelite friar, became Bishop of Fiesole. Once a wayward youth, he was converted through his mother's tears and prayers. He was known for his charity to the poor and his gift of prophecy.",
+    "feastRank": "Duplex"
+  },
+  "02-05": {
+    "name": "St. Agatha, Virgin and Martyr",
+    "title": "Virgin, Martyr",
+    "bio": "St. Agatha, a noble Sicilian maiden, refused the advances of the Roman senator Quintianus and was subjected to horrific tortures including the cutting off of her breasts. She died in prison around 251.",
+    "patronage": "breast cancer, nurses, bell founders",
+    "feastRank": "Duplex"
+  },
+  "02-06": {
+    "name": "St. Titus, Bishop and Confessor",
+    "title": "Bishop, Confessor",
+    "bio": "St. Titus was a companion of St. Paul and the first Bishop of Crete. He was entrusted with organizing the Church there. He died peacefully around 96 AD.",
+    "feastRank": "Duplex"
+  },
+  "02-07": {
+    "name": "St. Romuald, Abbot",
+    "title": "Abbot",
+    "bio": "St. Romuald, founder of the Camaldolese Order, spent his life founding hermitages across Italy. After a dissolute youth, he embraced severe penance and lived in solitude. He died in 1027.",
+    "feastRank": "Duplex"
+  },
+  "02-08": {
+    "name": "St. John of Matha, Confessor",
+    "title": "Confessor",
+    "bio": "St. John of Matha founded the Trinitarian Order in 1198 for the ransom of Christian captives from the Moors. He ransomed many slaves in Morocco and died in 1213 in Rome.",
+    "feastRank": "Duplex"
+  },
+  "02-09": {
+    "name": "St. Cyril of Alexandria, Bishop, Confessor, and Doctor",
+    "title": "Bishop, Confessor, Doctor",
+    "bio": "St. Cyril, Patriarch of Alexandria, presided at the Council of Ephesus in 431 which defined Mary as Theotokos, Mother of God. His writings against Nestorianism are foundational to Christology.",
+    "feastRank": "Duplex"
+  },
+  "02-10": {
+    "name": "St. Scholastica, Virgin",
+    "title": "Virgin",
+    "bio": "St. Scholastica, twin sister of St. Benedict, founded a convent near Monte Cassino. At their last meeting, her prayers caused a storm that kept Benedict from leaving. She died three days later, around 543.",
+    "patronage": "convulsive children, rain",
+    "feastRank": "Duplex"
+  },
+  "02-11": {
+    "name": "The Apparition of Our Lady at Lourdes",
+    "title": "Feast of Our Lady",
+    "bio": "On this day in 1858, the Blessed Virgin Mary first appeared to St. Bernadette Soubirous in the grotto of Massabielle, Lourdes, declaring herself the Immaculate Conception. Miraculous healings continue at the shrine.",
+    "feastRank": "Duplex majus"
+  },
+  "02-12": {
+    "name": "The Seven Holy Founders of the Servite Order",
+    "title": "Confessors",
+    "bio": "Seven Florentine noblemen, bound by devotion to Our Lady of Sorrows, withdrew to Monte Senario in 1233 and founded the Order of the Servants of Mary. They lived lives of extreme penance and contemplation.",
+    "feastRank": "Duplex"
+  },
+  "02-13": {
+    "name": "St. Catherine de Ricci, Virgin",
+    "title": "Virgin",
+    "bio": "St. Catherine de Ricci, a Dominican mystic of Florence, experienced ecstatic visions of the Passion every week for twelve years. She corresponded with St. Philip Neri and died in 1590.",
+    "feastRank": "Simplex"
+  },
+  "02-14": {
+    "name": "St. Valentine, Priest and Martyr",
+    "title": "Priest, Martyr",
+    "bio": "St. Valentine was a priest in Rome who continued to marry Christian couples and minister to persecuted Christians under Emperor Claudius II. He was beaten with clubs and beheaded on the Via Flaminia around 269.",
+    "patronage": "love, engaged couples, epilepsy",
+    "feastRank": "Duplex"
+  },
+  "02-15": {
+    "name": "Ss. Faustinus and Jovita, Martyrs",
+    "title": "Martyrs",
+    "bio": "Ss. Faustinus and Jovita, brothers and nobles of Brescia, preached fearlessly during the persecution of Hadrian. After many tortures and miraculous preservations, they were beheaded around 120.",
+    "feastRank": "Simplex"
+  },
+  "02-16": {
+    "name": "Feria",
+    "title": "",
+    "bio": "A ferial day in the liturgical calendar — no particular saint's feast is celebrated. The faithful are encouraged to offer the day's prayers and works for the souls in Purgatory.",
+    "feastRank": "Feria"
+  },
+  "02-17": {
+    "name": "Feria",
+    "title": "",
+    "bio": "A ferial day. The Church invites the faithful to meditate on the mysteries of our redemption and to grow in virtue through the ordinary duties of the day.",
+    "feastRank": "Feria"
+  },
+  "02-18": {
+    "name": "St. Simeon, Bishop and Martyr",
+    "title": "Bishop, Martyr",
+    "bio": "St. Simeon, a kinsman of Our Lord and second Bishop of Jerusalem after St. James the Less, governed the Church through the destruction of Jerusalem in 70 AD. At the age of 120, under Emperor Trajan, he was crucified for the Faith.",
+    "feastRank": "Duplex"
+  },
+  "02-19": {
+    "name": "Feria",
+    "title": "",
+    "bio": "A ferial day in the liturgical calendar. The faithful may devote this day to prayer, fasting, and almsgiving according to their state in life.",
+    "feastRank": "Feria"
+  },
+  "02-20": {
+    "name": "Feria",
+    "title": "",
+    "bio": "A ferial day. Let us offer our labors and sufferings in union with the Holy Sacrifice of the Mass for the intentions of Holy Mother Church.",
+    "feastRank": "Feria"
+  },
+  "02-21": {
+    "name": "Feria",
+    "title": "",
+    "bio": "A ferial day. The Church encourages the faithful to persevere in prayer and good works, keeping always before their eyes the eternal truths.",
+    "feastRank": "Feria"
+  },
+  "02-22": {
+    "name": "The Chair of St. Peter at Antioch",
+    "title": "Feast",
+    "bio": "This feast celebrates the founding of St. Peter's episcopal see in Antioch before he moved to Rome. It affirms the apostolic authority given to Peter by Christ Himself: 'Thou art Peter, and upon this rock I will build My Church.'",
+    "feastRank": "Duplex majus"
+  },
+  "02-23": {
+    "name": "St. Peter Damian, Bishop, Confessor, and Doctor",
+    "title": "Bishop, Confessor, Doctor",
+    "bio": "St. Peter Damian, a Cardinal-Bishop and Doctor of the Church, was a fearless reformer who combated simony and clerical corruption in the 11th century. His writings on penance and asceticism remain influential.",
+    "feastRank": "Duplex"
+  },
+  "02-24": {
+    "name": "St. Matthias, Apostle",
+    "title": "Apostle",
+    "bio": "St. Matthias was chosen by lot to replace Judas Iscariot among the Twelve Apostles. Tradition says he preached in Judea and Ethiopia. He was martyred, according to various accounts, by stoning or beheading.",
+    "feastRank": "Duplex II classis"
+  },
+  "02-25": {
+    "name": "Feria",
+    "title": "",
+    "bio": "A ferial day. Let us meditate upon the words of Our Lord: 'Watch ye, and pray that ye enter not into temptation. The spirit indeed is willing, but the flesh is weak.'",
+    "feastRank": "Feria"
+  },
+  "02-26": {
+    "name": "Feria",
+    "title": "",
+    "bio": "A ferial day. The faithful are encouraged to recite the Holy Rosary and practice small acts of mortification for love of God.",
+    "feastRank": "Feria"
+  },
+  "02-27": {
+    "name": "St. Gabriel of Our Lady of Sorrows, Confessor",
+    "title": "Confessor",
+    "bio": "St. Gabriel Possenti, a Passionist seminarian, achieved remarkable holiness in his brief 24 years. Devoted to Our Lady of Sorrows, he embraced suffering with joy and died of tuberculosis in 1862.",
+    "patronage": "students, youth, clerics",
+    "feastRank": "Duplex"
+  },
+  "02-28": {
+    "name": "Feria",
+    "title": "",
+    "bio": "A ferial day. Let us call upon the intercession of the Blessed Virgin Mary, our heavenly Mother, in all our needs and difficulties.",
+    "feastRank": "Feria"
+  },
+  "03-01": {
+    "name": "Feria",
+    "title": "",
+    "bio": "A ferial day. St. David, patron of Wales, is commemorated in many local calendars on this day.",
+    "feastRank": "Feria"
+  },
+  "03-07": {
+    "name": "St. Thomas Aquinas, Confessor and Doctor",
+    "title": "Confessor, Doctor",
+    "bio": "St. Thomas Aquinas, the Angelic Doctor, is the greatest theologian of the Church. His Summa Theologica synthesized faith and reason. He composed the Office of Corpus Christi and died in 1274.",
+    "patronage": "students, academics, theologians",
+    "feastRank": "Duplex"
+  },
+  "03-17": {
+    "name": "St. Patrick, Bishop and Confessor",
+    "title": "Bishop, Confessor",
+    "bio": "St. Patrick, Apostle of Ireland, was kidnapped as a youth by Irish raiders and spent six years in captivity. Escaping and entering the priesthood, he returned to Ireland and converted the entire nation to the Faith.",
+    "patronage": "Ireland, engineers, snakes",
+    "feastRank": "Duplex"
+  },
+  "03-19": {
+    "name": "St. Joseph, Spouse of the Blessed Virgin Mary",
+    "title": "Confessor",
+    "bio": "St. Joseph, chaste spouse of the Blessed Virgin and foster-father of Our Lord, is the patron and protector of the Universal Church. His quiet obedience and humble fidelity make him a model for all Christians.",
+    "patronage": "the Universal Church, workers, fathers, a happy death",
+    "feastRank": "Duplex I classis"
+  },
+  "03-25": {
+    "name": "The Annunciation of the Blessed Virgin Mary",
+    "title": "Feast of Our Lord",
+    "bio": "The Archangel Gabriel appeared to the Blessed Virgin Mary and announced that she would conceive by the Holy Ghost and bear the Son of God. Mary's fiat—'Be it done unto me according to thy word'—is the model of all Christian obedience.",
+    "feastRank": "Duplex I classis"
+  },
+  "04-25": {
+    "name": "St. Mark, Evangelist",
+    "title": "Evangelist",
+    "bio": "St. Mark, a disciple of St. Peter, wrote the second Gospel at Rome. He later became Bishop of Alexandria and was martyred by being dragged through the streets. His relics are venerated in Venice.",
+    "patronage": "Venice, notaries, barristers",
+    "feastRank": "Duplex II classis"
+  },
+  "05-01": {
+    "name": "Ss. Philip and James, Apostles",
+    "title": "Apostles",
+    "bio": "St. Philip preached in Phrygia and was crucified at Hierapolis. St. James the Less, 'brother of the Lord,' was first Bishop of Jerusalem and was thrown from the Temple pinnacle, then clubbed to death.",
+    "feastRank": "Duplex II classis"
+  },
+  "05-13": {
+    "name": "St. Robert Bellarmine, Bishop, Confessor, and Doctor",
+    "title": "Bishop, Confessor, Doctor",
+    "bio": "St. Robert Bellarmine, a Jesuit Cardinal and Doctor of the Church, was the greatest controversialist of the Counter-Reformation. His catechism was translated into sixty languages. He died in 1621.",
+    "patronage": "catechists, canon lawyers",
+    "feastRank": "Duplex"
+  },
+  "05-30": {
+    "name": "St. Joan of Arc, Virgin",
+    "title": "Virgin",
+    "bio": "St. Joan of Arc, the Maid of Orléans, received visions from Saints Michael, Catherine, and Margaret commanding her to save France. She led armies to victory, was captured, and was burned at the stake in 1431 at age 19.",
+    "patronage": "France, soldiers, prisoners",
+    "feastRank": "Duplex"
+  },
+  "06-24": {
+    "name": "The Nativity of St. John the Baptist",
+    "title": "Feast",
+    "bio": "The birth of the Precursor of Christ is one of only three birthdays celebrated in the liturgy. St. John was sanctified in the womb at the Visitation and prepared the way for Our Lord by preaching penance.",
+    "feastRank": "Duplex I classis"
+  },
+  "06-29": {
+    "name": "Ss. Peter and Paul, Apostles",
+    "title": "Apostles",
+    "bio": "The twin pillars of the Church: St. Peter, the Rock upon whom Christ built His Church, was crucified upside-down in Rome. St. Paul, Apostle of the Gentiles, was beheaded on the Ostian Way. Both died under Nero around 67 AD.",
+    "feastRank": "Duplex I classis"
+  },
+  "07-16": {
+    "name": "Our Lady of Mount Carmel",
+    "title": "Feast of Our Lady",
+    "bio": "The Blessed Virgin appeared to St. Simon Stock in 1251, giving him the Brown Scapular with the promise that whoever dies wearing it shall not suffer eternal fire. The Carmelite Order is dedicated to her.",
+    "patronage": "Carmelite Order, Chile, Bolivia",
+    "feastRank": "Duplex majus"
+  },
+  "07-25": {
+    "name": "St. James the Greater, Apostle",
+    "title": "Apostle",
+    "bio": "St. James, son of Zebedee and brother of St. John, was the first Apostle to be martyred, beheaded by King Herod Agrippa around 44 AD. His relics rest at Santiago de Compostela in Spain.",
+    "patronage": "Spain, pilgrims, laborers",
+    "feastRank": "Duplex II classis"
+  },
+  "08-06": {
+    "name": "The Transfiguration of Our Lord",
+    "title": "Feast of Our Lord",
+    "bio": "On Mount Tabor, Christ revealed His divine glory to Peter, James, and John, His face shining as the sun and His garments white as snow. Moses and Elias appeared, and the Father's voice commanded: 'Hear ye Him.'",
+    "feastRank": "Duplex II classis"
+  },
+  "08-15": {
+    "name": "The Assumption of the Blessed Virgin Mary",
+    "title": "Feast of Our Lady",
+    "bio": "The Blessed Virgin Mary, having completed the course of her earthly life, was assumed body and soul into heavenly glory. This dogma was solemnly defined by Pope Pius XII in 1950.",
+    "feastRank": "Duplex I classis"
+  },
+  "09-08": {
+    "name": "The Nativity of the Blessed Virgin Mary",
+    "title": "Feast of Our Lady",
+    "bio": "The birth of the Blessed Virgin Mary is celebrated as the dawn of salvation. Born of Ss. Joachim and Anne, she was preserved from Original Sin from the first moment of her conception.",
+    "feastRank": "Duplex II classis"
+  },
+  "09-14": {
+    "name": "The Exaltation of the Holy Cross",
+    "title": "Feast of Our Lord",
+    "bio": "This feast commemorates the recovery of the True Cross from the Persians by Emperor Heraclius in 629 and its triumphant return to Jerusalem. The Cross is the instrument of our salvation and the sign of Christ's victory.",
+    "feastRank": "Duplex majus"
+  },
+  "09-29": {
+    "name": "The Dedication of St. Michael the Archangel",
+    "title": "Feast",
+    "bio": "This feast honors St. Michael, prince of the heavenly host, who cast Lucifer from heaven. It commemorates the dedication of the church of St. Michael on the Salarian Way in Rome in the 5th century.",
+    "feastRank": "Duplex I classis"
+  },
+  "10-07": {
+    "name": "Our Lady of the Most Holy Rosary",
+    "title": "Feast of Our Lady",
+    "bio": "Instituted by Pope St. Pius V in thanksgiving for the victory at the Battle of Lepanto (1571), won through the intercession of Our Lady and the praying of the Rosary by all of Christendom.",
+    "feastRank": "Duplex II classis"
+  },
+  "10-13": {
+    "name": "St. Edward the Confessor, King",
+    "title": "King, Confessor",
+    "bio": "St. Edward the Confessor, last Anglo-Saxon King of England, was renowned for his piety, justice, and charity to the poor. He built Westminster Abbey and lived in virginal marriage with Queen Edith. He died in 1066.",
+    "patronage": "kings, difficult marriages, separated spouses",
+    "feastRank": "Duplex"
+  },
+  "11-01": {
+    "name": "All Saints",
+    "title": "Solemnity",
+    "bio": "The Church honors all the saints in heaven, known and unknown, who have won the crown of eternal life. This feast reminds us of our universal call to holiness and the communion of saints.",
+    "feastRank": "Duplex I classis"
+  },
+  "11-02": {
+    "name": "The Commemoration of All the Faithful Departed",
+    "title": "All Souls",
+    "bio": "On this day the Church prays for all the faithful departed who are being purified in Purgatory. Every priest may celebrate three Masses. The faithful are encouraged to gain indulgences for the holy souls.",
+    "feastRank": "Duplex I classis"
+  },
+  "12-08": {
+    "name": "The Immaculate Conception of the Blessed Virgin Mary",
+    "title": "Feast of Our Lady",
+    "bio": "The Blessed Virgin Mary, by a singular privilege of Almighty God and in view of the merits of Jesus Christ, was preserved from all stain of Original Sin from the first moment of her conception. Defined as dogma by Pius IX in 1854.",
+    "feastRank": "Duplex I classis"
+  },
+  "12-25": {
+    "name": "The Nativity of Our Lord Jesus Christ",
+    "title": "Solemnity",
+    "bio": "The Word was made flesh and dwelt among us. In Bethlehem, the Blessed Virgin Mary brought forth her firstborn Son, wrapped Him in swaddling clothes, and laid Him in a manger, for there was no room at the inn.",
+    "feastRank": "Duplex I classis"
+  },
+  "12-26": {
+    "name": "St. Stephen, Protomartyr",
+    "title": "Deacon, Protomartyr",
+    "bio": "St. Stephen, the first deacon and first martyr of the Church, was stoned to death for proclaiming Christ before the Sanhedrin. As he died, he prayed: 'Lord, lay not this sin to their charge.'",
+    "feastRank": "Duplex II classis"
+  },
+  "12-27": {
+    "name": "St. John, Apostle and Evangelist",
+    "title": "Apostle, Evangelist",
+    "bio": "St. John, the beloved disciple, reclined on the Lord's breast at the Last Supper. He stood at the Cross and received the care of the Blessed Virgin. He wrote the fourth Gospel, three Epistles, and the Apocalypse.",
+    "feastRank": "Duplex II classis"
+  },
+  "12-28": {
+    "name": "The Holy Innocents, Martyrs",
+    "title": "Martyrs",
+    "bio": "The infant boys of Bethlehem, slaughtered by King Herod in his attempt to kill the newborn King, are venerated as the first martyrs for Christ — baptized not in water but in their own blood.",
+    "feastRank": "Duplex II classis"
+  },
+  "12-31": {
+    "name": "St. Sylvester I, Pope and Confessor",
+    "title": "Pope, Confessor",
+    "bio": "St. Sylvester was Pope during the reign of Emperor Constantine, who legalized Christianity. Under his pontificate, the First Council of Nicaea (325) defined the consubstantiality of the Son with the Father.",
+    "feastRank": "Duplex"
+  }
+}
