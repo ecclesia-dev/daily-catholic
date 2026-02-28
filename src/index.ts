@@ -1,5 +1,7 @@
 import 'dotenv/config';
 import dayjs from 'dayjs';
+import customParseFormat from 'dayjs/plugin/customParseFormat.js';
+dayjs.extend(customParseFormat);
 import { getLiturgicalDay } from './calendar.js';
 import { assembleDailyContent } from './content.js';
 import { formatPlainText, formatNostrTeaser, formatNostrArticle, formatEmailHtml } from './format.js';
@@ -35,7 +37,7 @@ async function main() {
   const dateOverride = args.find(a => a.match(/^\d{4}-\d{2}-\d{2}$/));
 
   // MED-4 / S-3: Validate date argument before doing anything else
-  if (dateOverride && !dayjs(dateOverride).isValid()) {
+  if (dateOverride && !dayjs(dateOverride, 'YYYY-MM-DD', true).isValid()) {
     process.stderr.write(`Error: invalid date "${dateOverride}". Expected YYYY-MM-DD format.\n`);
     process.exit(1);
   }
