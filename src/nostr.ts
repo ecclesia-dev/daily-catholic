@@ -18,14 +18,20 @@ function getSecretKey(): Uint8Array {
 
 function getRelays(): string[] {
   const relays = process.env.NOSTR_RELAYS;
-  if (!relays) {
-    return [
-      'wss://relay.damus.io',
-      'wss://nos.lol',
-      'wss://relay.nostr.band',
-    ];
-  }
-  return relays.split(',').map(r => r.trim()).filter(Boolean);
+  const raw = relays
+    ? relays.split(',').map(r => r.trim()).filter(Boolean)
+    : [
+        'wss://relay.damus.io',
+        'wss://nos.lol',
+        'wss://relay.nostr.band',
+      ];
+
+  // MED-2 / S-1: Only allow secure wss:// relay URLs
+  return raw.filter(r => {
+    if (r.startsWith('wss://')) return true;
+    process.stderr.write(`⚠ Rejected insecure relay URL (must use wss://): ${r}\n`);
+    return false;
+  });
 }
 
 export async function publishToNostr(content: DailyContent): Promise<{ articleId: string; teaserId: string }> {
@@ -70,26 +76,35 @@ export async function publishToNostr(content: DailyContent): Promise<{ articleId
     content: teaserContent,
   }, secretKey);
 
-  // Publish both
+  // Publish both — HIGH-2: check that at least one relay ACKed each event
   console.log(`Publishing to ${relays.length} relays...`);
 
-  try {
-    await Promise.allSettled(pool.publish(relays, articleEvent));
-    console.log(`✓ Article published (kind 30023, d=daily-${dateStr})`);
-  } catch (e) {
-    console.error('✗ Article publish error:', e);
+  const articleResults = await Promise.allSettled(pool.publish(relays, articleEvent));
+  const articleOkCount = articleResults.filter(r => r.status === 'fulfilled').length;
+  console.log(`Article: ${articleOkCount}/${relays.length} relays ACKed (kind 30023, d=daily-${dateStr})`);
+  if (articleOkCount > 0) {
+    console.log(`✓ Article published`);
+  } else {
+    console.error('✗ Article: no relay acknowledged');
   }
 
-  try {
-    await Promise.allSettled(pool.publish(relays, teaserEvent));
-    console.log(`✓ Teaser published (kind 1)`);
-  } catch (e) {
-    console.error('✗ Teaser publish error:', e);
+  const teaserResults = await Promise.allSettled(pool.publish(relays, teaserEvent));
+  const teaserOkCount = teaserResults.filter(r => r.status === 'fulfilled').length;
+  console.log(`Teaser: ${teaserOkCount}/${relays.length} relays ACKed (kind 1)`);
+  if (teaserOkCount > 0) {
+    console.log(`✓ Teaser published`);
+  } else {
+    console.error('✗ Teaser: no relay acknowledged');
   }
 
-  // Give relays time to accept
+  // Give relays time to finalize
   await new Promise(resolve => setTimeout(resolve, 3000));
   pool.close(relays);
+
+  // HIGH-2: if zero relays acknowledged either event, treat as failure
+  if (articleOkCount === 0 && teaserOkCount === 0) {
+    throw new Error('No relays acknowledged any published events — aborting state update');
+  }
 
   return { articleId: articleEvent.id, teaserId: teaserEvent.id };
 }

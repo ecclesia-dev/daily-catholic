@@ -1,4 +1,5 @@
 import 'dotenv/config';
+import dayjs from 'dayjs';
 import { getLiturgicalDay } from './calendar.js';
 import { assembleDailyContent } from './content.js';
 import { formatPlainText, formatNostrTeaser, formatNostrArticle, formatEmailHtml } from './format.js';
@@ -23,7 +24,8 @@ function loadState(): State {
 }
 
 function saveState(state: State) {
-  writeFileSync(stateFile, JSON.stringify(state, null, 2));
+  // MED-3 / S-2: restrict state.json to owner read/write only
+  writeFileSync(stateFile, JSON.stringify(state, null, 2), { mode: 0o600 });
 }
 
 async function main() {
@@ -31,6 +33,12 @@ async function main() {
   const preview = args.includes('--preview');
   const generateOnly = args.includes('--generate-only');
   const dateOverride = args.find(a => a.match(/^\d{4}-\d{2}-\d{2}$/));
+
+  // MED-4 / S-3: Validate date argument before doing anything else
+  if (dateOverride && !dayjs(dateOverride).isValid()) {
+    process.stderr.write(`Error: invalid date "${dateOverride}". Expected YYYY-MM-DD format.\n`);
+    process.exit(1);
+  }
 
   console.log('☩ Sancti Angeli Dei — Daily Catholic Bot\n');
 
@@ -43,6 +51,12 @@ async function main() {
 
   // Assemble content
   const lightningAddress = process.env.LIGHTNING_ADDRESS || 'you@getalby.com';
+
+  // Advisory: warn operator if Lightning address is unconfigured
+  if (!process.env.LIGHTNING_ADDRESS || process.env.LIGHTNING_ADDRESS === 'you@getalby.com') {
+    process.stderr.write('⚠ LIGHTNING_ADDRESS is not set or is still the placeholder (you@getalby.com). Set this in your .env before publishing.\n');
+  }
+
   const content = assembleDailyContent(day, lightningAddress);
 
   if (preview || generateOnly) {

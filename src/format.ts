@@ -18,7 +18,8 @@ export function formatNostrTeaser(content: DailyContent): string {
   let teaser = `☩ ${day.dateFormatted}\n`;
   teaser += `${emoji} ${day.color} — ${day.feastRank}\n\n`;
   teaser += `🕊️ ${day.saint.name}`;
-  if (day.saint.title) teaser += ` (${day.saint.title})`;
+  // LOW-1: Only append title if it isn't already embedded in the name string
+  if (day.saint.title && !day.saint.name.includes(day.saint.title)) teaser += ` (${day.saint.title})`;
   teaser += `\n\n`;
   teaser += `"${quote.text}"\n— ${quote.author}\n\n`;
   teaser += `⚡ ${content.lightningAddress}\n`;
@@ -40,7 +41,8 @@ export function formatNostrArticle(content: DailyContent): string {
   // Saint of the Day
   md += `## Saint of the Day\n\n`;
   md += `**${day.saint.name}**`;
-  if (day.saint.title) md += ` — *${day.saint.title}*`;
+  // LOW-1: Only append title if it isn't already embedded in the name string
+  if (day.saint.title && !day.saint.name.includes(day.saint.title)) md += ` — *${day.saint.title}*`;
   md += `\n\n`;
   md += `${day.saint.bio}\n\n`;
   if (day.saint.patronage) {
@@ -88,7 +90,8 @@ export function formatPlainText(content: DailyContent): string {
 
   text += `SAINT OF THE DAY\n`;
   text += `${day.saint.name}`;
-  if (day.saint.title) text += ` (${day.saint.title})`;
+  // LOW-1: Only append title if it isn't already embedded in the name string
+  if (day.saint.title && !day.saint.name.includes(day.saint.title)) text += ` (${day.saint.title})`;
   text += `\n\n`;
   text += `${day.saint.bio}\n`;
   if (day.saint.patronage) text += `Patron of: ${day.saint.patronage}\n`;
@@ -148,7 +151,7 @@ export function formatEmailHtml(content: DailyContent): string {
     <tr><td style="padding:0 32px 16px;">
       <h2 style="margin:0 0 8px;font-size:16px;color:${accentColor};text-transform:uppercase;letter-spacing:1px;">Saint of the Day</h2>
       <p style="margin:0 0 6px;font-size:18px;font-weight:bold;color:#222;">
-        ${day.saint.name}${day.saint.title ? ` <span style="font-weight:normal;font-style:italic;color:#666;">— ${day.saint.title}</span>` : ''}
+        ${day.saint.name}${(day.saint.title && !day.saint.name.includes(day.saint.title)) ? ` <span style="font-weight:normal;font-style:italic;color:#666;">— ${day.saint.title}</span>` : ''}
       </p>
       <p style="margin:0;font-size:15px;color:#444;line-height:1.6;">${day.saint.bio}</p>
       ${day.saint.patronage ? `<p style="margin:8px 0 0;font-size:13px;color:#888;font-style:italic;">Patron of: ${day.saint.patronage}</p>` : ''}

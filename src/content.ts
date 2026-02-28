@@ -16,11 +16,26 @@ function getDayOfYear(dateStr: string): number {
   return Math.floor((d.getTime() - start.getTime()) / 86400000);
 }
 
+/**
+ * MED-1: Check whether a liturgical season string matches a data tag.
+ * Data tags use short names ('ordinary', 'lent', 'advent', etc.) while
+ * getSeason() returns human-readable strings ('Time after Pentecost', etc.).
+ */
+function seasonMatchesTag(season: string, tag: string): boolean {
+  const seasonLower = season.toLowerCase();
+  // Direct substring match (handles 'lent', 'advent', 'christmas', 'easter', etc.)
+  if (seasonLower.includes(tag)) return true;
+  // 'ordinary' matches 'Time after Pentecost' and 'Ordinary Time' variants
+  if (tag === 'ordinary' && (seasonLower.includes('pentecost') || seasonLower.includes('ordinary'))) return true;
+  // 'passiontide' is a late-Lent sub-season; match it against 'lent'
+  if (tag === 'passiontide' && seasonLower.includes('lent')) return true;
+  return false;
+}
+
 function selectByDay<T extends { seasons?: string[] }>(items: T[], dateStr: string, season: string): T {
   // Prefer season-matched items
-  const seasonLower = season.toLowerCase();
   const seasonMatched = items.filter(i =>
-    i.seasons?.some(s => seasonLower.includes(s))
+    i.seasons?.some(s => seasonMatchesTag(season, s))
   );
 
   const pool = seasonMatched.length > 0 ? seasonMatched : items;
