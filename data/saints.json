@@ -18,12 +18,6 @@
     "patronage": "Paris, disasters, fever",
     "feastRank": "Duplex"
   },
-  "01-04": {
-    "name": "St. Titus, Bishop and Confessor",
-    "title": "Bishop, Confessor",
-    "bio": "St. Titus, a disciple of St. Paul, was appointed the first Bishop of Crete. St. Paul's Epistle to Titus instructs him in the governance of the Church. He died peacefully around 96 AD.",
-    "feastRank": "Duplex"
-  },
   "01-05": {
     "name": "St. Telesphorus, Pope and Martyr",
     "title": "Pope, Martyr",
@@ -379,7 +373,7 @@
     "title": "Confessor, Doctor",
     "bio": "St. Thomas Aquinas, the Angelic Doctor, is the greatest theologian of the Church. His Summa Theologica synthesized faith and reason. He composed the Office of Corpus Christi and died in 1274.",
     "patronage": "students, academics, theologians",
-    "feastRank": "Duplex"
+    "feastRank": "Duplex II classis"
   },
   "03-17": {
     "name": "St. Patrick, Bishop and Confessor",
@@ -506,8 +500,8 @@
   "11-02": {
     "name": "The Commemoration of All the Faithful Departed",
     "title": "All Souls",
-    "bio": "On this day the Church prays for all the faithful departed who are being purified in Purgatory. Every priest may celebrate three Masses. The faithful are encouraged to gain indulgences for the holy souls.",
-    "feastRank": "Duplex I classis"
+    "bio": "On this day the Church prays for all the faithful departed who are being purified in Purgatory. Every priest may celebrate three Masses. The faithful are encouraged to gain indulgences for the holy souls. Note: All Souls Day is sui generis in rank — it does not belong to the ordinary Duplex festal hierarchy but stands as the Commemoratio Omnium Fidelium Defunctorum with its own unique character.",
+    "feastRank": "II classis"
   },
   "12-08": {
     "name": "The Immaculate Conception of the Blessed Virgin Mary",

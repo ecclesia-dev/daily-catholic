@@ -74,9 +74,17 @@ function getSeason(date: dayjs.Dayjs): string {
     }
   }
 
-  if (month >= 2 && month <= 3) return 'Septuagesima / Pre-Lent';
-  if (month >= 3 && month <= 4) return 'Lent';
-  if (month >= 4 && month <= 5) return 'Easter';
+  // Lent: Ash Wednesday through Holy Saturday (Ash Wed ranges Feb 4–Mar 10; Holy Sat ranges Mar 21–Apr 25).
+  // IMPORTANT: Lent check MUST precede Septuagesima to prevent March always matching Pre-Lent.
+  if ((month === 2 && day >= 17) || month === 3 || (month === 4 && day <= 20)) return 'Lent';
+
+  // Septuagesima / Pre-Lent: ~3 Sundays before Ash Wednesday (approx. late Jan through mid-Feb).
+  // Septuagesima Sunday falls no later than Feb 22; this range is a conservative safe approximation.
+  if ((month === 1 && day >= 18) || (month === 2 && day < 17)) return 'Septuagesima / Pre-Lent';
+
+  // Easter season: Easter Sunday through the Saturday after Pentecost (approx. late Mar – early Jun).
+  if ((month === 4 && day >= 21) || month === 5 || (month === 6 && day <= 12)) return 'Easter';
+
   return 'Time after Pentecost';
 }
 
